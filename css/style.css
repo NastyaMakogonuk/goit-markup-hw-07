@@ -1095,7 +1095,7 @@ margin-left: 0px;
 
 .form-checkbox:checked + .icon-title {
 background-color: var(--hover-accent-color);
-background-image: url(/images/iconcheck.svg);
+background-image: url(./images/iconcheck.svg);
 background-size:contain;
 background-origin: content-box;
 border-color: var(--hover-accent-color);
