@@ -325,33 +325,39 @@
 
 <div class="backdrop is-hidden" data-modal>
     <form class="modal-form" autocomplete="off">
-      <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+      <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
 
       
       <label class="modal-form-field">
         <span class="label-title">Ім'я</span>
-        <input class="form-input" type="text" name="name" id="name" width="12" height="12"/>
+        <span class="icon-position">
+        <input class="form-input" type="text" name="name" id="name"/>
         <svg class="icon-modal">
-          <use href="./images/icons.svg#icon-modalname"></use>
+          <use href="./images/icons.svg#icon-person"></use>
         </svg>
+        </span>
       </label>
 
-      <div class="svgposition">
+      
       <label class="modal-form-field">
         <span class="label-title">Телефон</span>
-        <input class="form-input" type="tel" name="phone"width="13" height="13"/>
+        <span class="icon-position">
+        <input class="form-input" type="tel" name="phone"/>
         <svg class="icon-modal">
-          <use href="./images/icons.svg#icon-modalphone"></use>
+          <use href="./images/icons.svg#icon-phone"></use>
         </svg>
+        </span>
       </label>
-    </div>
+    
 
       <label class="modal-form-field">
         <span class="label-title">Пошта</span>
+        <span class="icon-position">
         <input class="form-input" type="email" name="mail" />
         <svg class="icon-modal">
-          <use href="./images/icons.svg#icon-modalmail" width="15" height="12"></use>
+          <use href="./images/icons.svg#icon-email"></use>
         </svg>
+        </span>
       </label>
 
       <label class="modal-form-field">
