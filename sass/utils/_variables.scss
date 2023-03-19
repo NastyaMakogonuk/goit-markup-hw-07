@@ -1,1 +1,74 @@
+//colors
 
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196f3;
+$secondary-background-color: #2f303a;
+$additional-background-color: #f5f4fa;
+$primary-white-color: #ffffff;
+$secondary-light-color: rgba(255, 255, 255, 0.6);
+$hover-accent-color: #188ce8;
+$dark-color: #000000;
+
+// fonts
+
+$primary-fonts: 'Roboto';
+$accent-fonts: 'Raleway';
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: $primary-white-color;
+    color: $primary-text-color;
+  }
+   
+
+// faf
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+
+/* Common */
+
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
