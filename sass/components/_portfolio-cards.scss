@@ -10,7 +10,7 @@
     gap: 30px;
   }
   
-  .cards-li {
+  .cards-title__galery {
     width: 370px;
     background: $primary-white-color;
 
@@ -20,7 +20,7 @@
   }
   
 
-  .cards-li h3 {
+  .cards-title__galery h3 {
     font-family: $primary-fonts;
   
     font-weight: 700;
@@ -32,7 +32,7 @@
     color: $title-text-color;
   }
   
-  .cards-li p {
+  .cards-title__galery p {
     font-family: $primary-fonts;
     
     font-weight: 400;
@@ -42,13 +42,13 @@
     color: $primary-text-color;
   }
   
-  .overflow-cards{
+  .cards__owerflow {
     position: relative;
     overflow: hidden;
   
   }
   
-  .overlay {
+  .cards__overlay {
     position: absolute;
     background-color: rgba(33, 150, 243, 0.9);
     top: 0;
@@ -62,20 +62,20 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 
-    .cards-li:hover &,
-    .cards-li:focus &  {
+    .cards-title__galery:hover &,
+    .cards-title__galery:focus &  {
       opacity: 1;
       transform: translateY(0);
 
-  .overflow-cards:hover &,
-  .overflow-cards:focus &  {
+  .cards__owerflow:hover &,
+  .cards__owerflow:focus &  {
     opacity: 1;
     transform: translateY(0);
   }
     }
   }
   
-  .overlay .text-overlay {
+  .cards__overlay .cards__text-overlay {
     padding: 60px 24px;
     align-content: center;
     font-weight: 400;
@@ -85,15 +85,15 @@
     color: $primary-white-color;
   }
   
-  .overflow-cards{
+  .cards__owerflow{
     position: relative;
     overflow: hidden;
 
   }
   
   
-  // .overflow-cards:hover .overlay,
-  // .overflow-cards:focus .overlay  {
+  // .cards__owerflow:hover .overlay,
+  // .cards__owerflow:focus .overlay  {
   //   opacity: 1;
   //   transform: translateY(0);
   // }
@@ -116,7 +116,7 @@
     border-top: none;
   }
   
-  .cards-border-link {
+  .cards-border__link {
     display: block;
     text-decoration: none;
   
