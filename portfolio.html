@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-        <link rel="stylesheet" href="./css/style.css">
+        <!-- <link rel="stylesheet" href="./css/style.css"> -->
+        <link rel="stylesheet" href="./css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -15,24 +16,24 @@
     <header class="page-header">
         <div class="container">
         <nav class="main-nav">
-            <a class="logo link" href="./index.html">Web<span class="logo-dark">Studio</span></a>
-            <ul class="nav-list list">
-                <li class="li"><a class="nav-link link" href="./index.html">Студія</a></li>
-                <li class="li"><a class="nav-link current link current-page" href="./portfolio.html">Портфоліо</a></li>
-                <li class="li"><a class="nav-link link" href="">Контакти</a></li>
+            <a class="header-logo__blue-part" href="./index.html">Web<span class="logo-dark">Studio</span></a>
+            <ul class="header__nav-list">
+                <li class="header__nav-item li"><a class="header__nav-link" href="./index.html">Студія</a></li>
+                <li class="header__nav-item li"><a class="header__nav-link current-page" href="./portfolio.html">Портфоліо</a></li>
+                <li class="header__nav-item li"><a class="header__nav-link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="contacts-list list">
+        <ul class="header__contacts-list">
             <li class="li">
-                <a class="contacts-link link" href="mailto:info@devstudio.com">
-                    <svg class="svgmail">
-                    <use href="./images/icons.svg#icon-envelopehover" width="16px" height="12px"></use>
+                <a class="header__contacts-link" href="mailto:info@devstudio.com">
+                    <svg class="header__contacts-icon" width="16px" height="12px">
+                    <use href="./images/icons.svg#icon-envelopehover"></use>
                     </svg>info@devstudio.com</a>
             </li>
             <li class="li">
-                <a class="contacts-link link" href="tel:+380961111111">
-                    <svg class="svgphone">
-                    <use href="./images/icons.svg#icon-phonehover" width="10px" height="16px"></use>
+                <a class="header__contacts-link" href="tel:+380961111111">
+                    <svg class="header__contacts-icon" width="10px" height="16px">
+                    <use href="./images/icons.svg#icon-phonehover"></use>
                     </svg>+38 096 111 11 11</a>
             </li>
         </ul>
@@ -184,47 +185,47 @@
 </main>
 <footer class="footer">
     <div class="container">
-    <div class="addressposition">
-    <div class="addressblock">
-    <a class="logo link naming" href="./index.html">Web<span class="logo-light">Studio</span></a>
+    <div class="address-position">
+    <div class="address-block">
+    <a class="footer-logo__blue-part" href="./index.html">Web<span class="footer-logo__white-part">Studio</span></a>
     <address class="address">
-        <ul class="address-list list">
-            <li class="address-footer"><a class="address-link-light link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+        <ul>
+            <li class="address__item"><a class="address__address-line" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
                     rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li class="adress-mail address-footer"><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="address__item"><a class="address__contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="adress-phone address-footer"><a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="address__item"><a class="address__contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </address>
     </div>
     <div class="invite">
-                <p class="asktoinvite">ПРИЄДНУЙТЕСЬ</p>
-                <ul class="net-invite">
-                <li class="net-item"><a href="#" class="net-link-footer">
-                    <svg class="net-icon-footer" width="20px" height="20px">
+                <p class="invite__title">ПРИЄДНУЙТЕСЬ</p>
+                <ul class="invite__list">
+                <li class="invite__item"><a href="#" class="invite__link">
+                    <svg class="invite__icon" width="20px" height="20px">
                     <use href="./images/icons.svg#icon-instagramgrey"></use>
                 </svg></a></li>
-                <li class="net-item"><a href="#" class="net-link-footer">
-                    <svg class="net-icon-footer" width="20px" height="20px">
+                <li class="invite__item"><a href="#" class="invite__link">
+                    <svg class="invite__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use></svg>
                 </a></li>
-                <li class="net-item"><a href="#" class="net-link-footer">
-                    <svg class="net-icon-footer" width="20px" height="20px">
+                <li class="invite__item"><a href="#" class="invite__link">
+                    <svg class="invite__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use></svg>
                 </a></li>
-                <li class="net-item"><a href="#" class="net-link-footer">
-                    <svg class="net-icon-footer" width="20px" height="20px">
+                <li class="invite__item"><a href="#" class="invite__link">
+                    <svg class="invite__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg>
                 </a></li>
         </ul>
     </div>
-    <div class="invite-footer">
-        <p class="subscribe">Підпишіться на розсилку</p>
-    <form class="button-footer">
-    <input class='input-mail-footer' type="email" placeholder="E-mail" name="email" />
-    <button class="footer-btn">Підписатися
-        <svg class="footer-form-icon" width="24" height="24"> 
+    <div class="subscribe">
+        <p class="subscribe__title">Підпишіться на розсилку</p>
+    <form class="subscribe__submit">
+    <input class='subscribe__input' type="email" placeholder="E-mail" name="email" />
+    <button class="subscribe__submit-btn">Підписатися
+        <svg class="subscribe__icon" width="24" height="24"> 
             <use href="./images/icons.svg#icon-buttonsubscribe"></use> 
         </svg>        
     </button>
