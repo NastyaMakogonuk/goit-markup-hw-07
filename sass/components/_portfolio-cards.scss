@@ -1,0 +1,152 @@
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .cards-title {
+    display: flex;
+    flex-wrap: wrap;
+    color: $title-text-color;
+    gap: 30px;
+  }
+  
+  .cards-li {
+    width: 370px;
+    background: $primary-white-color;
+
+    &:nth-child(3n) {
+      margin-right: 0px;
+    }
+  }
+  
+
+  .cards-li h3 {
+    font-family: $primary-fonts;
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+  
+    color: $title-text-color;
+  }
+  
+  .cards-li p {
+    font-family: $primary-fonts;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
+  
+  .overflow-cards{
+    position: relative;
+    overflow: hidden;
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    background-color: rgba(33, 150, 243, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+    transform: translateY(101%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    .cards-li:hover &,
+    .cards-li:focus &  {
+      opacity: 1;
+      transform: translateY(0);
+
+  .overflow-cards:hover &,
+  .overflow-cards:focus &  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+    }
+  }
+  
+  .overlay .text-overlay {
+    padding: 60px 24px;
+    align-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: inherit;
+    color: $primary-white-color;
+  }
+  
+  .overflow-cards{
+    position: relative;
+    overflow: hidden;
+
+  }
+  
+  
+  // .overflow-cards:hover .overlay,
+  // .overflow-cards:focus .overlay  {
+  //   opacity: 1;
+  //   transform: translateY(0);
+  // }
+  
+  // .cards-li:hover .overlay,
+  // .cards-li:focus .overlay  {
+  //   opacity: 1;
+  //   transform: translateY(0);
+  // }
+  
+  .cards-text {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+  }
+  
+  .cards-border {
+    border: 1px solid #EEEEEE;
+    padding: 20px 24px;
+    border-top: none;
+  }
+  
+  .cards-border-link {
+    display: block;
+    text-decoration: none;
+  
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  }
+  
+
+  
+  .cards-thumb {
+  position: relative;
+
+ &::before {
+    display: inline-block;
+    content: "";
+    width: 50%;
+    height: 50%;
+    background-color: $accent-color;
+  }
+  }
+  
+
+  img {
+    display: block;
+    max-width: 100%;
+      height: auto;
+  }
